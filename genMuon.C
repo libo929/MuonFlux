@@ -1,7 +1,6 @@
 //
 // arXiv:1509.06176v1, A parametrization of the cosmic-ray muon flux at sea-level
 // Eq.(3) is for random muon energy generation, from 0.1 to 2000 GeV for zenith angle 0 degree.
-// The unit of nonscaled flux (m^{-2} s^{-1} sr^{-1} GeV^{-1}) is ploted.
 //
 double getFlux(double muonEnergy, double theta)
 {
