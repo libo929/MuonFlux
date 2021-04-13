@@ -41,7 +41,6 @@ void genMuon2()
    c1->SetLogx();
 
    TF2 *f = new TF2("f0", funFlux, 0.1, 2000, 0, 89);
-   f->SetParameter(0, 0.);
 
    TH2F* hist = new TH2F("", "", 20000-1, 0.1, 2000, 89, 0, 89);
 
